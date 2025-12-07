@@ -2,16 +2,32 @@
 __pycache__/
 *.py[cod]
 *$py.class
-.env
+*.so
+.Python
 venv/
-   
+env/
+ENV/
+
+# Environment variables
+.env
+
 # ChromaDB
 chroma_db/
-   
+*.db
+
 # IDE
 .vscode/
 .idea/
-   
-# Data (если большие файлы)
-*.csv
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files 
+data/*.csv
 data/*.json
