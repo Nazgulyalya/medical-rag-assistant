@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+   
+# ChromaDB
+chroma_db/
+   
+# IDE
+.vscode/
+.idea/
+   
+# Data (если большие файлы)
+*.csv
+data/*.json
